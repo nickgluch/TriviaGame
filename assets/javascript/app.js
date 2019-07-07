@@ -11,6 +11,7 @@ $(document).ready(function () {
 
     function displayTrivia() {
 
+
         function startTimer(duration, display) {
             var timer = duration, minutes, seconds;
             setInterval(function () {
@@ -180,6 +181,7 @@ $(document).ready(function () {
             // when user clicks submit, show results
             submitButton.onclick = function () {
                 showResults(questions, quizContainer, resultsContainer);
+
             }
 
 
@@ -194,6 +196,7 @@ $(document).ready(function () {
 
 
         generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton);
+
 
         
     };

@@ -15,6 +15,9 @@
     font-size:20px;
 }
 
-#triviaContainer {
-    position: absolute;
+
+
+#quiz {
+margin-top: 200px;
+margin-left: 350px;
 }

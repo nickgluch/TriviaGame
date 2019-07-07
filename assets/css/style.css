@@ -1,0 +1,20 @@
+#start_button {
+ background-color: lightblue;
+    width:1000px;
+    height:250px;
+    border-color:gray;
+    border-width: 2px;
+    border-style: solid;
+    padding-top:30px;
+    margin-left:225px;
+    
+    
+    text-align:center;
+}
+#time {
+    font-size:20px;
+}
+
+#triviaContainer {
+    position: absolute;
+}
